@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Ikura Gunkan",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/Ikura-maki-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/Ikura-maki-205.jpg"
   },
   {
     "id": 2,
     "name": "Sake Nigiri",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/sake-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/sake-sushi-205.jpg"
   },
   {
     "id": 3,
     "name": "Kappa Maki",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/kappa-maki-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/kappa-maki-sushi-205.jpg"
   },
   {
     "id": 4,
     "name": "Maguro Nigiri",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/maguro-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/maguro-sushi-205.jpg"
   },
   {
     "id": 5,
     "name": "Uni",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/Uni-Sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/Uni-Sushi-205.jpg"
   },
   {
     "id": 6,
     "name": "Toro",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/Toro-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/Toro-sushi-205.jpg"
   },
   {
     "id": 7,
     "name": "California Roll",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/california-roll-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/california-roll-sushi-205.jpg"
   },
   {
     "id": 8,
     "name": "Ebi Nigiri",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/ebi-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/ebi-sushi-205.jpg"
   },
   {
     "id": 9,
     "name": "Natto Maki",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/Natto-Sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/Natto-Sushi-205.jpg"
   },
   {
     "id": 10,
     "name": "Kamaboko Kani",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/kamaboko-kani-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/kamaboko-kani-205.jpg"
   },
   {
     "id": 11,
     "name": "Ika Nigiri",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/ika-sushi-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/ika-sushi-205.jpg"
   },
   {
     "id": 12,
     "name": "Tekkamaki",
-    "image": "https://orange.japan-talk.com/images/jt/thumbnails/Tekkamaki-205.jpg"
+    "image": "http://orange.japan-talk.com/images/jt/thumbnails/Tekkamaki-205.jpg"
   }
 ]
