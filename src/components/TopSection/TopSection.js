@@ -3,10 +3,10 @@ import React, { Component, Fragment } from 'react'
 
 import "./TopSection.css";
 
-const TopSection = () => (
+const TopSection = props => (
   <header className="TopSection">
-  <h5>Score: 0| Top Score: </h5>
-  <h5>You guessed </h5>
+  <h5>Score: {props.score}  |  Top Score: {props.topscore}</h5>
+  
     
   </header>
 );

@@ -4,6 +4,7 @@
   text-shadow: 2em;
   background-color: rgb(201, 194, 185);
   padding:10px;
+  border:4px rgb(201, 194, 185) solid;
 }
 
 .App-logo {
