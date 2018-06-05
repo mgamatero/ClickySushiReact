@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import sushi from "./sushi.json";
 import SushiCard from "./components/SushiCard";
+
 import Header from "./components/Header";
 import TopSection from "./components/TopSection";
 
@@ -78,7 +79,7 @@ class App extends Component {
     for (var i = 0; i < this.state.idPicked.length; i++) {
       if (id === parseInt(this.state.idPicked[i])) {
         //debug - console.log(id + "in there already")
-        if (this.state.score > this.state.highscore)
+        if (this.state.score > this.state.highscore) {
           this.setState({ highscore: this.state.score })
         }
         this.reinitialize()
