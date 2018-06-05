@@ -1,6 +1,9 @@
 # ClickySushiReact - Work in progress
+Link: https://react-sushi-clickygame.herokuapp.com/
 
-Goal of this app is to get to a score of 12.
+Eat up to 12 sushi varieties!
+
+
 
 - There are 12 sushi pieces on the screen.  
 - You are to click on a piece which gives a score.  
