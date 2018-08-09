@@ -46,7 +46,7 @@ class App extends Component {
   reinitialize = () => {
     this.setState({ score: 0 })
     this.setState({ idPicked: [] })
-    this.randomRender()    
+    this.randomRender()
   }
 
 
@@ -71,19 +71,24 @@ class App extends Component {
   //      Other functions used: reinitialize(), randomRender()
   //**************************************************************************************** */
   handleClicked = id => {
+    // let correctSound = new Audio("http://www.pacdv.com/sounds/people_sound_effects/yes_1.wav")
+    let correctSound = new Audio("../audio/yes.wav")
+    let wrongSound = new Audio("../audio/no.wav")
+    // let wrongSound = new Audio("http://www.pacdv.com/sounds/fart-sounds/fart-wav-4.wav")
     this.setState({ score: this.state.score + 1 })
     this.setState({ idPicked: [...this.state.idPicked, id] })
+    correctSound.play()
 
     //If picked index was previously picked, game ends. score is reset, highscore is set if it makes sense,
     //and randomized sushi cards are rerendered via reinitialize
     for (var i = 0; i < this.state.idPicked.length; i++) {
       if (id === parseInt(this.state.idPicked[i])) {
+        wrongSound.play()
         //debug - console.log(id + "in there already")
         if (this.state.score > this.state.highscore) {
           this.setState({ highscore: this.state.score })
         }
         this.reinitialize()
-
       }
     }
     this.randomRender()
