@@ -9,6 +9,6 @@
   margin: 0 auto;
 }
 
-*{
-  background: url("https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwif4u2AuN_cAhVH-qwKHV2kDzQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.nrn.com%2Ffinance%2Fbain-fund-invests-bamboo-sushi-parent&psig=AOvVaw2FdTk3HlmSv-JLBAKBy7Ye&ust=1533885785819174");
+body{
+  background-image: url("../images/sushi_mat.jpg");
 }
