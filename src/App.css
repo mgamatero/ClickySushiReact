@@ -11,5 +11,18 @@
 
 body{
   background-image: url("https://merchantview360.com/wp-content/uploads/2016/03/Nemo-Restaurant-Keyport-NJ-Japanese-restaurant-sushi-bar.jpg");
+  background-size: cover;
+}
+
+
+/* phone landscape -- don't show header */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape)
+{
+  .App-header{
+    display:none;
+  }
 }
 

@@ -71,10 +71,10 @@ class App extends Component {
   //      Other functions used: reinitialize(), randomRender()
   //**************************************************************************************** */
   handleClicked = id => {
-    // let correctSound = new Audio("http://www.pacdv.com/sounds/people_sound_effects/yes_1.wav")
+   
     let correctSound = new Audio("../audio/yes.wav")
     let wrongSound = new Audio("../audio/no.wav")
-    // let wrongSound = new Audio("http://www.pacdv.com/sounds/fart-sounds/fart-wav-4.wav")
+    
     this.setState({ score: this.state.score + 1 })
     this.setState({ idPicked: [...this.state.idPicked, id] })
     correctSound.play()
